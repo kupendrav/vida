@@ -1,8 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
+  let a = params.username
   return (
-    <div>portfolio!</div>
+    <div>portfolio! {a}</div>
   )
 }
 
